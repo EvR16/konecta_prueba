@@ -1,0 +1,82 @@
+    label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+.label{
+    display: block;
+    padding-top: 10px;
+}
+
+
+
+#body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+.inicio {
+margin: 20px auto;
+width: 300px;
+}
+.inicio2 {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+.form1 {
+margin: 20px auto;
+width: 500px;
+ border: 0px solid rgba(100, 100, 100, 1);
+  border-radius: 29px;
+  box-shadow: 0px 2px 12px 9px rgba(0, 0, 0, 0.3);
+  
+}
+.form2 {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+
+.btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+
+

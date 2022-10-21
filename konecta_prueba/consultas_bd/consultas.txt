@@ -1,0 +1,6 @@
+-- Realizar una consulta que permita conocer cuál es el producto que más stock tiene--
+
+SELECT id,nombre,referencia,precio,peso,categoria, stock,fecha_creacion FROM cafeteria.`productos` where stock=(SELECT MAX(stock) FROM productos);
+
+--Realizar una consulta que permita conocer cuál es el producto más vendido.--
+select v.nombre, v.referencia, v.precio,MAX(v.suma_ventas) suma_ventas FROM (SELECT SUM(cant) as suma_ventas, p.nombre, p.referencia, p.precio, p.categoria, v.cant FROM ventas_prod v, productos p WHERE p.id=v.id_prod GROUP BY v.id_prod) AS v;
